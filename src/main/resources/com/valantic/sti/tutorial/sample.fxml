@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.VBox?>
 <VBox xmlns:fx="http://javafx.com/fxml/1"
       xmlns="http://javafx.com/javafx/17"
-      fx:controller="com.valantic.sti.tutorial.Controller"
       prefHeight="400.0"
-      prefWidth="600.0">
+      prefWidth="600.0"
+      fx:controller="com.valantic.sti.tutorial.Controller">
 
     <Label text="I love bacon"/>
     <Button text="Submit" fx:id="button" onAction="#handleButtonClick"/>
